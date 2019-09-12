@@ -1,0 +1,106 @@
+.flex{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@font-face {
+    font-family: Gtek;
+    src: url(../fonts/Gtek.ttf);
+}
+
+@font-face{
+    font-family: Emotion;
+    src: url(../fonts/Emotion.otf);
+}
+
+@font-face{
+    font-family: Scarre;
+    src: url(../fonts/Scarre.ttf);
+}
+a{
+    font-family: Emotion;
+    text-decoration: none;
+    font-size:18px;
+    color:#39ff14;
+}
+.content{
+    height:calc(100%-100px);
+}
+body{
+    margin:0;
+    background-color:#000000;
+    height:100%;
+    text-align:center;
+}
+h1{
+    margin-top:0;
+    margin-bottom:0;
+}
+.left div{
+    display:inline-block;
+    border:5px dotted #ff00e7;
+    width:50px;
+    text-align:center;
+}
+.right div{
+    
+    display:inline-block;
+    border:5px dotted #01fffc;
+    width:50px;
+    text-align:center;
+}
+.left{
+    font-size:48px;
+    color:#ff00e7;
+    text-align:left;
+}
+.right{
+    font-size:48px;
+    color:#01fffc;
+    text-align:right;
+}
+.title{
+    text-align: center;
+    font-family: Gtek; 
+    color:#ff073a;
+}
+.center{
+    justify-content: center;
+    align-items:center;
+}
+.header{
+    min-width:700px;
+    width:60%;
+    height:50px;
+    margin-top:20px;
+}
+
+.help{
+    font-family: Gtek; 
+    color:#F8F8FF;
+    font-size: 28px;
+    width:25%;
+}
+
+svg{
+    top:12%;
+    border: 1px solid white; 
+    height:calc(100vh - 120px);
+    margin-top:20px;
+    min-height:600px;
+}
+
+
+.scoreboard{
+    color: white;
+    border: 1px solid white;
+    font-size: 24px;
+    padding: 30px 20px;
+    
+}
+
+.score{
+    color: white;
+    font-size: 30px;
+}
